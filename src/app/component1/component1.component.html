@@ -1,0 +1,7 @@
+<p>component1 works!</p>
+<h1>Component1</h1>
+
+<p>{{count}}</p>
+
+<br>
+<app-component2 [counter]="count" (newCounter)="updateCount($event)"></app-component2>
